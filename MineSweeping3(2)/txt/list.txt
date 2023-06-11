@@ -1,0 +1,4 @@
+ec0 nc0 hc0
+ew0 nw0 hw0
+em0 nm0 hm0
+ep0 np0 hp0

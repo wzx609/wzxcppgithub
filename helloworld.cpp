@@ -1,10 +1,9 @@
-#include<iostream>
-#include<boost/format.hpp>
+#include<bits/stdc++.h>
 using namespace std;
-int main()
-{
-    //目前编译器暂不支持C++20的format，这里使用boost::format
-    cout<<boost::format("There are %d ways I loved you.") % 764564565<<endl;
-
+int main(){
+    srand((unsigned int)time(NULL));
+    for(int i=0;i<10;i++){
+        cout<<rand()%65<<" ";
+    }
     return 0;
 }
